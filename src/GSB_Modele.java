@@ -16,7 +16,7 @@ public class GSB_Modele {
 		int rep = 0 ;
 		try{
 			Class.forName("com.mysql.jdbc.Driver") ;
-			connexion = DriverManager.getConnection("jdbc:mysql://localhost/ppe", "root", "");
+			connexion = DriverManager.getConnection("jdbc:mysql://localhost/gsbmvc", "root", "");
 			statementP = connexion.createStatement(); 
 			System.out.println("Connexion Réussi");
 			rep = 1
